@@ -1,0 +1,55 @@
+.body{
+    background-image: url(me.jpg);
+    background-color: aqua;
+    background-position: 0.3;
+    background-size: 1.5;
+    box-shadow: yellow;
+    text-align: center;
+    text-align: center;
+    font-display: block;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    line-height: 1.8;
+}
+.card{
+    background-color: antiquewhite;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border: 1px solid rgba r;
+    box-shadow: 0 10px 30px rgba black;
+    padding: 40px;
+    border-radius: 20px;
+}
+.first{
+    color: aqua;
+    font-size: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-shadow: none;
+    text-decoration: aqua;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.first:hover{
+    color: azure;
+    text-shadow: 0 0 25px white;
+    transform: scale(100);
+}
+.googel-btn{
+    display: inline-block;
+    margin: 20px;
+    padding: 12px 30px;
+    background-color: blueviolet;
+    color: burlywood;
+    text-decoration: none;
+    border-radius: 50px;
+    font-width: bold;
+    transition: 0.3s;
+}
+googel-btn:hover{
+    background-color: aquamarine;
+    color: blue;
+}
