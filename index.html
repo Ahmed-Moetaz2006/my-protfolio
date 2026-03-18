@@ -8,10 +8,33 @@
 </head>
 <body>
     <div class="card">
-        <h1> "webdeveloper" مرحبا بكم في موقعي!</h1>
+        <h1> "web developer" !مرحبا بكم في موقعي</h1>
         <a href="https://www.google.com/" class="first" target="_blank">visit Google</a>
     </div>
+        <div id="container"></div>
     <script src="page.js"></script>
+        <div class="info-section"> 
+        <h1>My portfolio</h1>
+        <hr>
+        <h>Name:👤 Ahmed Moetaz</h>
+        <p>age:⏳ 19</p>
+        <p>major:💻systems and information</p>
+        </div>
+        <button onclick="changeMode()" Id="modebtn">تشغيل الوضع الليلي</button>
+<script>
+            function changeMode(){
+                var element=document.body;
+                element.classList.toggle("dark-mode");
+                var btn=
+                document.getElementByld("modebtn");
+                if
+                (element.classList.contains("dark-mode")){
+                        btn.innerHTML="تشغيل الوضع النهاري";
+                } else {
+                        btn.innerHTML="تشغيل الوضع الليلي";
+                }
+        }
+</script>
 
     
 </body>

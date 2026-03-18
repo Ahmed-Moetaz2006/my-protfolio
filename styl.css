@@ -22,6 +22,7 @@ body{
     margin: 0;
     justify-content: center;
     background-color: burlywood;
+
 }
 .card{
     background-color: bisque;
@@ -38,4 +39,29 @@ body{
     padding: 20px;
     transition: 0.3s;
     transition: all 0.5s ease-in-out;
+
+
+
+
+}
+.info-section{
+    background-color: rgba(255,255,255,0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px dashed#fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+}
+.dark-mode{
+    background-color: #1a1a1a !important;
+    counter-reset: white !important;
+}
+#modebtn{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background: #333;
+    color: white;
+    margin-top: 20px;
 }
